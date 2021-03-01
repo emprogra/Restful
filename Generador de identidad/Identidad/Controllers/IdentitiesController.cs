@@ -31,5 +31,6 @@ namespace Identidad.Controllers
             Random r = new Random();
             return lista[r.Next(0, 6)];
         }
+
     }
 }
